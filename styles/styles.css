@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: #3347FF;
+    animation: fadeIn 1s ease-in;
+  }
+  p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 50px 20% 50px 20%;
+    color: #444;
+    animation: fadeIn 1s ease-in;
+  }
+  #mission-statement {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #3347FF;
+    animation: fadeIn 1s ease-in;
+  }
+  #mission-statement:hover {
+    cursor: pointer;
+    color: #6C6C6C;
+  }
+  .developer {
+    text-align: center;
+    margin: 50px 0;
+    animation: fadeIn 1s ease-in;
+  }
+  .developer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: scaleIn 1s ease-in;
+  }
+  .developer h2 {
+    margin-top: 20px;
+    color: #3347FF;
+    animation: fadeIn 1s ease-in;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
